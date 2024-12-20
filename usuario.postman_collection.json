@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "11bae4f7-aeb2-4d48-8a63-68acd760ac8e",
+		"name": "usuario",
+		"description": "Colección de consultas para la gestión de usuarios en la API REST.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40302453"
+	},
+	"item": [
+		{
+			"name": "http://localhost/apiRest/v1/public/usuario/mostrar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/usuario/mostrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"usuario",
+						"mostrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/usuario/mostrar/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/usuario/mostrarId/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"usuario",
+						"mostrarId",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/usuario/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"nombre\": \"Martin Barrientos\",\n        \"email\": \"pruebaPost@example.com\",\n        \"password\": \"hashed_password_1\",\n        \"telefono\": \"1234567890\",\n        \"direccion\": \"Calle Falsa 123, Ciudad\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/usuario/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"usuario",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/usuario/update/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 8,\n        \"nombre\": \"Martin Actualizar\",\n        \"email\": \"prueba@example.com\",\n        \"password\": \"hashed_password_1\",\n        \"telefono\": \"1234567890\",\n        \"direccion\": \"Calle Falsa 123, Ciudad\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/usuario/update/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"usuario",
+						"update",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/usuario/delete/8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/usuario/delete/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"usuario",
+						"delete",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

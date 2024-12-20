@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "usuario_id": 1,
+        "articulos": [
+            {
+                "id": 101,
+                "nombre": "Laptop",
+                "precio": 1500,
+                "cantidad": 1
+            },
+            {
+                "id": 102,
+                "nombre": "Mouse",
+                "precio": 25,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "usuario_id": 2,
+        "articulos": [
+            {
+                "id": 103,
+                "nombre": "Teclado",
+                "precio": 45,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "usuario_id": 3,
+        "articulos": []
+    },
+    {
+        "id": 4,
+        "usuario_id": 4,
+        "articulos": [
+            {
+                "id": 104,
+                "nombre": "Monitor",
+                "precio": 300,
+                "cantidad": 1
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "usuario_id": 5,
+        "articulos": []
+    },
+    {
+        "id": 6,
+        "usuario_id": 6,
+        "articulos": [
+            {
+                "id": 105,
+                "nombre": "Aud\u00edfonos",
+                "precio": 75,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "usuario_id": 7,
+        "articulos": []
+    },
+    {
+        "id": 9,
+        "usuario_id": 8,
+        "articulos": [
+            {
+                "id": 106,
+                "nombre": "Tablet",
+                "precio": 250,
+                "cantidad": 1
+            },
+            {
+                "id": 107,
+                "nombre": "Funda para Tablet",
+                "precio": 20,
+                "cantidad": 1
+            }
+        ]
+    }
+]

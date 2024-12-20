@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Martin Pérez",
+        "email": "martin.perez@example.com",
+        "password": "lalalala",
+        "telefono": "1234567890",
+        "direccion": "Calle Lizardi 123, Urnieta"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Ruiz",
+        "email": "carlos.ruiz@example.com",
+        "password": "hashed_password_3",
+        "telefono": "5556667777",
+        "direccion": "Boulevard de la Paz 789, Ciudad"
+    },
+    {
+        "id": 4,
+        "nombre": "Ana López",
+        "email": "ana.lopez@example.com",
+        "password": "hashed_password_4",
+        "telefono": "3334445555",
+        "direccion": "Plaza Mayor 101, Ciudad"
+    },
+    {
+        "id": 5,
+        "nombre": "Luis Rodríguez",
+        "email": "luis.rodriguez@example.com",
+        "password": "hashed_password_5",
+        "telefono": "4445556666",
+        "direccion": "Colonia Centro 303, Ciudad"
+    },
+    {
+        "id": 6,
+        "nombre": "Sofía García",
+        "email": "sofia.garcia@example.com",
+        "password": "hashed_password_6",
+        "telefono": "1112223333",
+        "direccion": "Callejón del Ángel 404, Ciudad"
+    },
+    {
+        "id": 7,
+        "nombre": "Miguel Herrera",
+        "email": "miguel.herrera@example.com",
+        "password": "hashed_password_7",
+        "telefono": "2223334444",
+        "direccion": "Paseo de los Olivos 505, Ciudad"
+    }
+]

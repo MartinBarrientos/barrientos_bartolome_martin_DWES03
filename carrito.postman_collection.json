@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "459d8511-e2a4-4b54-ab65-d3e2136e05e8",
+		"name": "carrito",
+		"description": "Colección de consultas para la gestión de carritos en la API REST.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40302453"
+	},
+	"item": [
+		{
+			"name": "http://localhost/apiRest/v1/public/carrito/mostrar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/carrito/mostrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"carrito",
+						"mostrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/carrito/mostrarId/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/carrito/mostrarId/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"carrito",
+						"mostrarId",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/carrito/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario_id\": 8,\r\n    \"articulos\": [\r\n        {\r\n            \"id\": 205,\r\n            \"nombre\": \"Iphone\",\r\n            \"precio\": 250,\r\n            \"cantidad\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/carrito/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"carrito",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/carrito/update/10",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"id\": 10,\n        \"usuario_id\": 8,\n        \"articulos\": [\n            {\n                \"id\": 106,\n                \"nombre\": \"esto es una prueba de actualizacion del carrito\",\n                \"precio\": 250,\n                \"cantidad\": 10\n            },\n            {\n                \"id\": 107,\n                \"nombre\": \"Funda para Tablet\",\n                \"precio\": 20,\n                \"cantidad\": 1\n            }\n        ]\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/carrito/update/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"carrito",
+						"update",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/apiRest/v1/public/carrito/delete/10",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/apiRest/v1/public/carrito/delete/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"apiRest",
+						"v1",
+						"public",
+						"carrito",
+						"delete",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

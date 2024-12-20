@@ -1,0 +1,110 @@
+[
+    {
+        "id": 101,
+        "nombre": "Teclado Mecánico",
+        "descripcion": "Teclado mecánico retroiluminado.",
+        "precio": 29.99,
+        "stock": 50,
+        "categoria": "Accesorios de Computadora",
+        "disponible": true
+    },
+    {
+        "id": 102,
+        "nombre": "Mouse Inalámbrico",
+        "descripcion": "Mouse ergonómico y recargable.",
+        "precio": 15.51,
+        "stock": 100,
+        "categoria": "Accesorios de Computadora",
+        "disponible": true
+    },
+    {
+        "id": 103,
+        "nombre": "Monitor LED",
+        "descripcion": "Monitor Full HD 24 pulgadas.",
+        "precio": 120.99,
+        "stock": 30,
+        "categoria": "Monitores",
+        "disponible": true
+    },
+    {
+        "id": 201,
+        "nombre": "Silla Gamer",
+        "descripcion": "Silla ergonómica ajustable.",
+        "precio": 150.75,
+        "stock": 10,
+        "categoria": "Muebles de Oficina",
+        "disponible": true
+    },
+    {
+        "id": 202,
+        "nombre": "Micrófono USB",
+        "descripcion": "Micrófono condensador para podcast.",
+        "precio": 40.5,
+        "stock": 25,
+        "categoria": "Audio",
+        "disponible": true
+    },
+    {
+        "id": 301,
+        "nombre": "Cámara Web",
+        "descripcion": "Cámara Full HD para videollamadas.",
+        "precio": 75.25,
+        "stock": 15,
+        "categoria": "Accesorios de Computadora",
+        "disponible": false
+    },
+    {
+        "id": 401,
+        "nombre": "Cable HDMI",
+        "descripcion": "Cable HDMI 4K de 2 metros.",
+        "precio": 10.99,
+        "stock": 200,
+        "categoria": "Accesorios de Video",
+        "disponible": true
+    },
+    {
+        "id": 402,
+        "nombre": "Martin Mecánico",
+        "descripcion": "Prueba consulta.",
+        "precio": 100.99,
+        "stock": 25,
+        "categoria": "Accesorios de Computadora",
+        "disponible": true
+    },
+    {
+        "id": 403,
+        "nombre": "Teclado Mecánico",
+        "descripcion": "Prueba consulta.",
+        "precio": 100.99,
+        "stock": 25,
+        "categoria": "Accesorios de Computadora",
+        "disponible": true
+    },
+    {
+        "id": 404,
+        "nombre": "Martin Mecánico",
+        "descripcion": "Prueba consulta.",
+        "precio": 100.99,
+        "stock": 25,
+        "categoria": "Accesorios de Computadora",
+        "disponible": true
+    },
+    {
+        "id": 405,
+        "nombre": "Martin .",
+        "descripcion": "Prueba consulta.",
+        "precio": 100.99,
+        "stock": 25,
+        "categoria": "Accesorios de Computadora",
+        "disponible": true
+    },
+    {
+        "id": 406,
+        "nombre": "Martin .",
+        "descripcion": "Prueba consulta.",
+        "precio": 100.99,
+        "stock": 25,
+        "categoria": "Accesorios de Computadora",
+        "disponible": true
+    }
+]
